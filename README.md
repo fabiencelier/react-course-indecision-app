@@ -1,7 +1,12 @@
 # react-course-indecision-app
 Indecision App from The Complete React Web Developer Course (with Redux) on Udemy
 
-# babel command
+### Install
 
-`babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch`
+`sudo npm install -g live-server` 
+`sudo npm install -g babel-cli`
+
+# Run
+
+`babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch`  
 `live-server public`
