@@ -7,6 +7,6 @@ Indecision App from The Complete React Web Developer Course (with Redux) on Udem
 
 # Run
 
-`yarn run serve`  
+`yarn run dev-server`  
 
 `yarn run build`
