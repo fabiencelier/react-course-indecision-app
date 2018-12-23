@@ -1,5 +1,6 @@
 .form{
   display: flex;
+  flex-direction: row;
   padding: $m-size;
 }
 
@@ -19,4 +20,14 @@
   color: $off-white;
   margin-right: $s-size;
   padding: $s-size;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .form {
+    flex-direction: column;
+  }
+
+  .form__input {
+    margin: 0 0 $s-size 0;
+  }
 }
